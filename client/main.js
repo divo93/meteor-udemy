@@ -1,11 +1,12 @@
 import React from 'react'
 import { Meteor } from 'meteor/meteor';
 import { render } from 'react-dom';
+import ImageList from './components/image_list'
 
 const App = () => {
   return (
     <div>
-      React #2
+      <ImageList />
     </div>
   )
 }
